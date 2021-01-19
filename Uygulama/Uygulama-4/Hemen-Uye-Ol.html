@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Hemen Üye Ol </title>
+</head>
+<body>
+   
+    <h1> Lütfen Bu Formu Eksiksiz Doldurunuz</h1>
+    <hr>
+    <h3> Hesap Bilgileriniz</h3>
+    
+    <form action="/Home/Register">
+       <p>
+           
+               Kullanıcı Adı : <input type="text" name="kullaniciadi" placeholder="Kullanıcı adınınız giriniz." required>
+       </p>
+        
+        <p>
+           
+               E-Posta : <input type="email" name="email" placeholder="Mail adresinizi giriniz." required>
+       </p>
+        
+        <p>
+           
+               Parola : <input type="password" name="sifre" placeholder="Şifrenizi giriniz." required>
+       </p>
+       
+       <h3> Kişisel Bilgileriniz</h3>
+       
+       <form>
+           
+           <p>
+               Ad : <input type="text" name="ad">
+               
+           </p>
+           
+           <p>
+               Soyad : <input type="text" name="soyad">
+               
+           </p>
+           
+           <p>
+            <select name="sehir">
+              
+                Şehir : <option>Seçiniz</option>
+                        <option>İstanbul</option>
+                        <option>Isparta</option>
+                        <option>Antalya</option>
+                        <option>Eskişehir</option>
+               
+           </select>
+           </p>
+           
+           <p>
+        Cinsiyet: <br>
+        Erkek : <input type="radio" name="cinsiyet"> 
+        Kadın : <input type="radio" name="cinsiyet"> 
+       
+          </p>
+          
+        Hobiler: <br>
+        Futbol: <input type="checkbox" name="hobi">
+        Sinema: <input type="checkbox" name="hobi">
+        Kitap: <input type="checkbox" name="hobi">
+        Gezi: <input type="checkbox" name="hobi">
+        
+         <p>
+             <input type="submit" value="Kaydet"> 
+         </p>
+        
+       </form>
+        
+        
+    </form>
+</body>
+</html>
